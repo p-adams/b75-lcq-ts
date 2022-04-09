@@ -1,6 +1,6 @@
 interface ProblemGroup {
   name: string;
-  problems: { name: string; link?: string }[];
+  problems: { name: string; link: string }[];
 }
 
 export const problemGroupings: ProblemGroup[] = [
@@ -12,14 +12,35 @@ export const problemGroupings: ProblemGroup[] = [
         name: "best_time_to_buy_and_sell_stock",
         link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
       },
-      { name: "contains_duplicate", link: "" },
-      { name: "product_of_array_except_self" },
-      { name: "maximum_subarray", link: "" },
-      { name: "maximum_product_subarray" },
-      { name: "find_minimum_in_rotated_sorted_array" },
-      { name: "search_in_rotated_sorted_array", link: "" },
-      { name: "three_sum", link: "" },
-      { name: "container_with_most_water", link: "" },
+      {
+        name: "contains_duplicate",
+        link: "https://leetcode.com/problems/contains-duplicate/",
+      },
+      {
+        name: "product_of_array_except_self",
+        link: "https://leetcode.com/problems/product-of-array-except-self/",
+      },
+      {
+        name: "maximum_subarray",
+        link: "https://leetcode.com/problems/maximum-subarray/",
+      },
+      {
+        name: "maximum_product_subarray",
+        link: "https://leetcode.com/problems/maximum-product-subarray/",
+      },
+      {
+        name: "find_minimum_in_rotated_sorted_array",
+        link: "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+      },
+      {
+        name: "search_in_rotated_sorted_array",
+        link: "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      },
+      { name: "three_sum", link: "https://leetcode.com/problems/3sum/" },
+      {
+        name: "container_with_most_water",
+        link: "https://leetcode.com/problems/container-with-most-water/",
+      },
     ],
   },
   {
@@ -62,7 +83,7 @@ export const problemGroupings: ProblemGroup[] = [
     name: "interval",
     problems: [
       { name: "insert_interval", link: "" },
-      { name: "merge_intervals" },
+      { name: "merge_intervals", link: "" },
       { name: "non_overlapping_intervals", link: "" },
     ],
   },

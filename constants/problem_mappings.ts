@@ -129,8 +129,8 @@ export const problemGroupings: ProblemGroup[] = [
       { name: "invert_flip_binary_tree", link: "" },
       { name: "binary_tree_maximum_path_sum", link: "" },
       { name: "binary_tree_level_order_traversal", link: "" },
-      { name: "serialize and deserialize binary tree", link: "" },
-      { name: "subtree of another tree", link: "" },
+      { name: "serialize_and_deserialize_binary_tree", link: "" },
+      { name: "subtree_of_another_tree", link: "" },
       {
         name: "construct_binary_tree_from_preorder_and_inorder_traversal",
         link: "",

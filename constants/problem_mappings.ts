@@ -43,104 +43,267 @@ export const problemGroupings: ProblemGroup[] = [
       },
     ],
   },
+
   {
     name: "binary",
     problems: [
-      { name: "sum_of_two_integers", link: "" },
-      { name: "number_of_one_bits", link: "" },
-      { name: "missing_bits", link: "" },
-      { name: "missing_number", link: "" },
-      { name: "reverse_bits", link: "" },
+      {
+        name: "sum_of_two_integers",
+        link: "https://leetcode.com/problems/sum-of-two-integers/",
+      },
+      {
+        name: "number_of_one_bits",
+        link: "https://leetcode.com/problems/number-of-1-bits/",
+      },
+      {
+        name: "missing_bits",
+        link: "https://leetcode.com/problems/counting-bits/",
+      },
+      {
+        name: "missing_number",
+        link: "https://leetcode.com/problems/missing-number/",
+      },
+      {
+        name: "reverse_bits",
+        link: "https://leetcode.com/problems/reverse-bits/",
+      },
     ],
   },
   {
     name: "dynamic_programming",
     problems: [
-      { name: "climbing_stairs", link: "" },
-      { name: "coin_change", link: "" },
-      { name: "longest_increasing_subsequence", link: "" },
-      { name: "longest_common_subsequence", link: "" },
-      { name: "word_break_problem", link: "" },
-      { name: "combination_sum", link: "" },
-      { name: "house_robber", link: "" },
-      { name: "house_robber_two", link: "" },
-      { name: "decode_ways", link: "" },
-      { name: "unique_paths", link: "" },
-      { name: "jump_game", link: "" },
+      {
+        name: "climbing_stairs",
+        link: "https://leetcode.com/problems/climbing-stairs/",
+      },
+      {
+        name: "coin_change",
+        link: "https://leetcode.com/problems/coin-change/",
+      },
+      {
+        name: "longest_increasing_subsequence",
+        link: "https://leetcode.com/problems/longest-increasing-subsequence/",
+      },
+      {
+        name: "longest_common_subsequence",
+        link: "https://leetcode.com/problems/longest-common-subsequence/",
+      },
+      {
+        name: "word_break_problem",
+        link: "https://leetcode.com/problems/word-break/",
+      },
+      {
+        name: "combination_sum",
+        link: "https://leetcode.com/problems/combination-sum-iv/",
+      },
+      {
+        name: "house_robber",
+        link: "https://leetcode.com/problems/house-robber/",
+      },
+      {
+        name: "house_robber_two",
+        link: "https://leetcode.com/problems/house-robber-ii/",
+      },
+      {
+        name: "decode_ways",
+        link: "https://leetcode.com/problems/decode-ways/",
+      },
+      {
+        name: "unique_paths",
+        link: "https://leetcode.com/problems/unique-paths/",
+      },
+      { name: "jump_game", link: "https://leetcode.com/problems/jump-game/" },
     ],
   },
   {
     name: "graph",
     problems: [
-      { name: "clone_graph", link: "" },
-      { name: "course_schedule", link: "" },
-      { name: "pacific_atlantic_water_flow", link: "" },
-      { name: "number_of_islands", link: "" },
-      { name: "longest_consecutive_sequence", link: "" },
+      {
+        name: "clone_graph",
+        link: "https://leetcode.com/problems/clone-graph/",
+      },
+      {
+        name: "course_schedule",
+        link: "https://leetcode.com/problems/course-schedule/",
+      },
+      {
+        name: "pacific_atlantic_water_flow",
+        link: "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+      },
+      {
+        name: "number_of_islands",
+        link: "https://leetcode.com/problems/number-of-islands/",
+      },
+      {
+        name: "longest_consecutive_sequence",
+        link: "https://leetcode.com/problems/longest-consecutive-sequence/",
+      },
     ],
   },
   {
     name: "interval",
     problems: [
-      { name: "insert_interval", link: "" },
-      { name: "merge_intervals", link: "" },
-      { name: "non_overlapping_intervals", link: "" },
+      {
+        name: "insert_interval",
+        link: "https://leetcode.com/problems/insert-interval/",
+      },
+      {
+        name: "merge_intervals",
+        link: "https://leetcode.com/problems/merge-intervals/",
+      },
+      {
+        name: "non_overlapping_intervals",
+        link: "https://leetcode.com/problems/non-overlapping-intervals/",
+      },
     ],
   },
   {
     name: "linked_list",
     problems: [
-      { name: "reverse_a_linked_list", link: "" },
-      { name: "detect_cycle_in_linked_list", link: "" },
-      { name: "merge_two_sorted_lists", link: "" },
-      { name: "merge_k_sorted_lists", link: "" },
-      { name: "remove_nth_node_from_end_of_list", link: "" },
-      { name: "reorder_list", link: "" },
+      {
+        name: "reverse_a_linked_list",
+        link: "https://leetcode.com/problems/reverse-linked-list/",
+      },
+      {
+        name: "detect_cycle_in_linked_list",
+        link: "https://leetcode.com/problems/linked-list-cycle/",
+      },
+      {
+        name: "merge_two_sorted_lists",
+        link: "https://leetcode.com/problems/merge-two-sorted-lists/",
+      },
+      {
+        name: "merge_k_sorted_lists",
+        link: "https://leetcode.com/problems/merge-k-sorted-lists/",
+      },
+      {
+        name: "remove_nth_node_from_end_of_list",
+        link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      },
+      {
+        name: "reorder_list",
+        link: "https://leetcode.com/problems/reorder-list/",
+      },
     ],
   },
   {
     name: "matrix",
     problems: [
-      { name: "set_matrix_zeroes", link: "" },
-      { name: "spiral_matrix", link: "" },
-      { name: "rotate_image", link: "" },
-      { name: "word_search", link: "" },
+      {
+        name: "set_matrix_zeroes",
+        link: "https://leetcode.com/problems/set-matrix-zeroes/",
+      },
+      {
+        name: "spiral_matrix",
+        link: "https://leetcode.com/problems/spiral-matrix/",
+      },
+      {
+        name: "rotate_image",
+        link: "https://leetcode.com/problems/rotate-image/",
+      },
+      {
+        name: "word_search",
+        link: "https://leetcode.com/problems/word-search/",
+      },
     ],
   },
   {
     name: "string",
     problems: [
-      { name: "longest_substring_without_repeating_characters", link: "" },
-      { name: "longest_repeating_character_replacement", link: "" },
-      { name: "minimum_window_substring", link: "" },
-      { name: "valid_anagram", link: "" },
-      { name: "group_anagrams", link: "" },
-      { name: "valid_parentheses", link: "" },
-      { name: "valid_palindrome", link: "" },
-      { name: "longest_palindromic_substring", link: "" },
-      { name: "palindromic_substrings", link: "" },
+      {
+        name: "longest_substring_without_repeating_characters",
+        link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      },
+      {
+        name: "longest_repeating_character_replacement",
+        link: "https://leetcode.com/problems/longest-repeating-character-replacement/",
+      },
+      {
+        name: "minimum_window_substring",
+        link: "https://leetcode.com/problems/minimum-window-substring/",
+      },
+      {
+        name: "valid_anagram",
+        link: "https://leetcode.com/problems/valid-anagram/",
+      },
+      {
+        name: "group_anagrams",
+        link: "https://leetcode.com/problems/group-anagrams/",
+      },
+      {
+        name: "valid_parentheses",
+        link: "https://leetcode.com/problems/valid-parentheses/",
+      },
+      {
+        name: "valid_palindrome",
+        link: "https://leetcode.com/problems/valid-palindrome/",
+      },
+      {
+        name: "longest_palindromic_substring",
+        link: "https://leetcode.com/problems/longest-palindromic-substring/",
+      },
+      {
+        name: "palindromic_substrings",
+        link: "https://leetcode.com/problems/palindromic-substrings/",
+      },
     ],
   },
   {
     name: "tree",
     problems: [
-      { name: "maximum_depth_of_binary_tree", link: "" },
-      { name: "same_tree", link: "" },
-      { name: "invert_flip_binary_tree", link: "" },
-      { name: "binary_tree_maximum_path_sum", link: "" },
-      { name: "binary_tree_level_order_traversal", link: "" },
-      { name: "serialize_and_deserialize_binary_tree", link: "" },
-      { name: "subtree_of_another_tree", link: "" },
+      {
+        name: "maximum_depth_of_binary_tree",
+        link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      },
+      { name: "same_tree", link: "https://leetcode.com/problems/same-tree/" },
+      {
+        name: "invert_flip_binary_tree",
+        link: "https://leetcode.com/problems/invert-binary-tree/",
+      },
+      {
+        name: "binary_tree_maximum_path_sum",
+        link: "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+      },
+      {
+        name: "binary_tree_level_order_traversal",
+        link: "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+      },
+      {
+        name: "serialize_and_deserialize_binary_tree",
+        link: "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+      },
+      {
+        name: "subtree_of_another_tree",
+        link: "https://leetcode.com/problems/subtree-of-another-tree/",
+      },
       {
         name: "construct_binary_tree_from_preorder_and_inorder_traversal",
-        link: "",
+        link: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
       },
-      { name: "validate_binary_search_tree", link: "" },
-      { name: "kth_smallest_element_in_bst", link: "" },
-      { name: "lowest_common_ancestor_of_bst", link: "" },
-      { name: "implement_trie", link: "" },
-      { name: "add_and_search_word", link: "" },
-      { name: "word_search_two", link: "" },
+      {
+        name: "validate_binary_search_tree",
+        link: "https://leetcode.com/problems/validate-binary-search-tree/",
+      },
+      {
+        name: "kth_smallest_element_in_bst",
+        link: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+      },
+      {
+        name: "lowest_common_ancestor_of_bst",
+        link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+      },
+      {
+        name: "implement_trie",
+        link: "https://leetcode.com/problems/implement-trie-prefix-tree/",
+      },
+      {
+        name: "add_and_search_word",
+        link: "https://leetcode.com/problems/add-and-search-word-data-structure-design/",
+      },
+      {
+        name: "word_search_two",
+        link: "https://leetcode.com/problems/word-search-ii/",
+      },
     ],
   },
   {
@@ -148,15 +311,15 @@ export const problemGroupings: ProblemGroup[] = [
     problems: [
       {
         name: "merge_k_sorted_lists",
-        link: "",
+        link: "https://leetcode.com/problems/merge-k-sorted-lists/",
       },
       {
         name: "top_k_frequent_elements",
-        link: "",
+        link: "https://leetcode.com/problems/top-k-frequent-elements/",
       },
       {
         name: "find_median_from_data_stream",
-        link: "",
+        link: "https://leetcode.com/problems/find-median-from-data-stream/",
       },
     ],
   },
